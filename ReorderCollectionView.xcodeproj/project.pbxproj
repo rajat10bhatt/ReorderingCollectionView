@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		046E278023AB61A600A708BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E277F23AB61A600A708BA /* AppDelegate.swift */; };
 		046E278223AB61A600A708BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E278123AB61A600A708BA /* SceneDelegate.swift */; };
-		046E278423AB61A600A708BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E278323AB61A600A708BA /* ViewController.swift */; };
+		046E278423AB61A600A708BA /* AlphabetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E278323AB61A600A708BA /* AlphabetViewController.swift */; };
 		046E278723AB61A600A708BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E278523AB61A600A708BA /* Main.storyboard */; };
 		046E278923AB61AB00A708BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E278823AB61AB00A708BA /* Assets.xcassets */; };
 		046E278C23AB61AB00A708BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E278A23AB61AB00A708BA /* LaunchScreen.storyboard */; };
+		046E279423AB745600A708BA /* AlphabetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E279323AB745600A708BA /* AlphabetCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		046E277C23AB61A600A708BA /* ReorderCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReorderCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046E277F23AB61A600A708BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		046E278123AB61A600A708BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		046E278323AB61A600A708BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046E278323AB61A600A708BA /* AlphabetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetViewController.swift; sourceTree = "<group>"; };
 		046E278623AB61A600A708BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		046E278823AB61AB00A708BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046E278B23AB61AB00A708BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046E278D23AB61AB00A708BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046E279323AB745600A708BA /* AlphabetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				046E277F23AB61A600A708BA /* AppDelegate.swift */,
 				046E278123AB61A600A708BA /* SceneDelegate.swift */,
-				046E278323AB61A600A708BA /* ViewController.swift */,
+				046E278323AB61A600A708BA /* AlphabetViewController.swift */,
+				046E279323AB745600A708BA /* AlphabetCollectionViewCell.swift */,
 				046E278523AB61A600A708BA /* Main.storyboard */,
 				046E278823AB61AB00A708BA /* Assets.xcassets */,
 				046E278A23AB61AB00A708BA /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046E278423AB61A600A708BA /* ViewController.swift in Sources */,
+				046E278423AB61A600A708BA /* AlphabetViewController.swift in Sources */,
 				046E278023AB61A600A708BA /* AppDelegate.swift in Sources */,
+				046E279423AB745600A708BA /* AlphabetCollectionViewCell.swift in Sources */,
 				046E278223AB61A600A708BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
